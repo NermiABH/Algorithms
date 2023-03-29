@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func BinarySearchNoRec(slice []int, elem int) int {
-	first, last := 0, len(slice) - 1
+	first, last := 0, len(slice)-1
 	middle := 0
 	for first <= last {
 		middle = (first + last) / 2
